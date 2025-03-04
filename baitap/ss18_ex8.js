@@ -2,7 +2,6 @@ let a=+prompt('Nhap vao canh cua tam giac');
 let b=+prompt('Nhap vao canh cua tam giac');
 let c=+prompt('Nhap vao canh cua tam giac');
 console.log('Ba cach lan luot la : '+a,b,c);
-
 if(a+b>c&&b+c>a&&a+c>b){
     if(a===b&&b===c){
         console.log('Tam giac deu');
